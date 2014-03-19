@@ -17,7 +17,51 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-
+<wrapper>
+    <header>
+        <h1>BrittaLisas Hunddagis</h1>
+        <img src="img/"/>
+    </header>
+    <nav>
+        <a href="index.php">Startsida</a>
+        <a href="news.php">Nyheter</a>
+        <a href="about.php">Om oss</a>
+        <a href="info.php">Priser</a>
+        <a href="gallery.php">Galleri</a>
+        <a href="contact.php">Kontakt</a>
+    </nav>
+    <content>
+        <!--bild som skiftar varje gång sidan laddas om-->
+        <img src="#"/>
+        <div id="welcometextbox">
+            <p>
+                Välkommen till det personliga hunddagiset i Uddavalla. Vi erbjuder dagis i hemmiljö och gör allt för att du och just din eller dina hundar ska ha det så roligt, bekvämt och tryggt som möjligt.
+            </p>
+        </div>
+    </content>
+    <footer>
+        <ul>
+            <li>
+                <img src="img/phone.png"/>
+                <p>
+                    076-9484263
+                </p>
+            </li>
+            <li>
+                <img src="img/mail.png"/>
+                <p>
+                    brittalisashunddagis@telia.com
+                </p>
+            </li>
+            <li>
+                <img src="img/map.png"/>
+                <p>
+                    Hova Solbacken 125<br>451 91 Uddevalla
+                </p>
+            </li>
+        </ul>
+    </footer>
+</wrapper>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

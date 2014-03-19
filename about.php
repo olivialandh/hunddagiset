@@ -17,7 +17,65 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
+<wrapper>
+    <header>
+        <h1>BrittaLisas Hunddagis</h1>
+        <img src="img/"/>
+    </header>
+    <nav>
+        <a href="index.php">Startsida</a>
+        <a href="news.php">Nyheter</a>
+        <a href="about.php">Om oss</a>
+        <a href="info.php">Priser</a>
+        <a href="gallery.php">Galleri</a>
+        <a href="contact.php">Kontakt</a>
+    </nav>
+    <content>
+        <div class="leftcolumn">
+            <div class="photo">
 
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <p>
+                Om BrittaLisas Hunddagis
+
+                Det började en dag i maj när solen sken och Britta(Schappetorpets Elektra) kom till världen...
+                När sommarens sol värmde som mest i juli föddes Lisa(Lisa Linnea av Ulfsäter)...
+
+                Så började vår saga om att våra hundar och vår dröm om att de skulle få ett skönt hundliv. Starten av vår verksamhet med BrittaLisas Hundagis var ett faktum.
+
+                Vi erbjuder dagis i hemmiljö och gör allt för att du och just din eller dina hundar ska ha det så roligt, bekvämt och tryggt som det bara är möjligt.
+
+                Här finns mycket roligt att uppleva för din hund, leka, nosa eller ta det lungt och kolla in kompisarna.
+
+                Ytor både inne och ute öppnar för trivsam tillvaro. Hundarna får en promenad på förmiddagen och en på eftermiddagen. Dessutom har vi områden för lek, träning och gos.
+            </p>
+        </div>
+    </content>
+    <footer>
+        <ul>
+            <li>
+                <img src="img/phone.png"/>
+                <p>
+                    076-9484263
+                </p>
+            </li>
+            <li>
+                <img src="img/mail.png"/>
+                <p>
+                    brittalisashunddagis@telia.com
+                </p>
+            </li>
+            <li>
+                <img src="img/map.png"/>
+                <p>
+                    Hova Solbacken 125<br>451 91 Uddevalla
+                </p>
+            </li>
+        </ul>
+    </footer>
+</wrapper>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
