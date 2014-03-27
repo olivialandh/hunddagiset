@@ -1,0 +1,121 @@
+/*****html****************************/
+
+body {
+    background: saddlebrown;
+}
+
+div {
+    display: block;
+}
+
+#wrapper {
+    
+    margin: 0 auto;
+    clear: both;
+}
+
+#pagecontainer {
+    margin: 0 auto;
+    background: white;
+}
+
+#content {
+
+}
+
+/***********head**********************/
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#logo {
+    width: 30%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+/*********************navigation*******//
+
+#nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+    #nav > ul {
+        list-style-type:none;
+        margin-left:5%;
+        margin-right:5%;
+        padding:0;
+        overflow:hidden;
+    }
+
+        #nav > ul > li {
+            display:inline;
+            float:left;
+            background: blue;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            margin: 0px 5px 0px 5px;
+        }
+
+            #nav > ul > li > a {
+                display:block;
+                padding: 5px;
+            }
+
+
+/***** general*********/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+    font-family: Georgia;
+}
+
+a {
+    font-family: Georgia;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    a:hover {
+        color: black;
+    }
+
+
+
+/*****************footer************/
+
+footer {
+    width: 350px;
+    background: green;
+
+}
+footer > ul {
+
+
+}
+
+footer > ul > li {
+    float: left;
+    width:20%;
+}
+
+footer > ul > li > div {
+
+}

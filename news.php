@@ -14,10 +14,10 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
 </head>
 <body>
-<wrapper>
+<div id="wrapper">
     <header>
         <h1>BrittaLisas Hunddagis</h1>
         <img src="img/"/>
@@ -30,9 +30,9 @@
         <a href="gallery.php">Galleri</a>
         <a href="contact.php">Kontakt</a>
     </nav>
-    <content>
+    <div id="content">
 
-    </content>
+    </div>
     <footer>
         <ul>
             <li>
@@ -55,11 +55,12 @@
             </li>
         </ul>
     </footer>
-</wrapper>
+</div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js"></script>-->
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
